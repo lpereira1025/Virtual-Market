@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(245, 245, 240);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.Superior {
+    display: flex;
+    background-color: black;
+    width: 600px;
+    height: 20px;
+    color: #fff;
+    margin-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.lista {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.classe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:rgba(2, 2, 2, 0.05);
+    margin: 10px;
+    background-color: rgba(224, 220, 212, 0.185);
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.Resultado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 50px;
+    width: 600px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgba(2, 2, 2, 0.103);
+    background-color: rgb(241, 236, 227);
+}
+
+.Botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(16, 214, 115, 0.911);
+    height: 20px;
+}
+
+.Botao button {
+    display: flex;
+    width: 200px;
+    align-items: flex-end;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:rgba(16, 214, 115, 0.911);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
